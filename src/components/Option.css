@@ -1,5 +1,5 @@
 .option {
-  background-color: #3c0e70;
+  background-color: #02121a;
   border-radius: 0.5rem;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -22,7 +22,7 @@
 }
 
 .wrong {
-  background-color: #3c0e70;
+  background-color: #020e14;
   opacity: 0.5;
 }
 

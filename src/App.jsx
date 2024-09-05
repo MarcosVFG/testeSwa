@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Simulado Redes</h1>
+      <h1>Simulado CCNA</h1>
       {quizState.gameStage === "Start" && <Welcome />}
       {quizState.gameStage === "Category" && <PickCategory />}
       {quizState.gameStage === "Playing" && <Question />}

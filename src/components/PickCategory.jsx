@@ -2,8 +2,6 @@ import { useContext } from "react";
 
 import { QuizContext } from "../context/quiz";
 
-import Category from "../img/category.svg";
-
 import "./PickCategory.css";
 
 const PickCategory = () => {
@@ -17,8 +15,7 @@ const PickCategory = () => {
 
   return (
     <div id="category">
-      <h2>Escolha um</h2>
-      <p>São 100 perguntas aleatórias em cada opção não se repetindo entre elas</p>
+      <h2>Iniciar</h2>
       {quizState.questions.map((question) => (
         <button
           onClick={() => chooseCategoryAndReorderQuestions(question.category)}
